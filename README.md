@@ -22,7 +22,7 @@ Aplicação web desenvolvida com **Python + Streamlit** para gerenciar clientes 
 ![Agendar_servico](images/Agendar_servico.png)
 
 ### Listar Cliente
-![Listar_cliente](images/Listar_cliente.png)
+![Listar_clientes](images/Listar_clientes.png)
 
 ### Ver Agendamento
 ![ver_agendamento](images/ver_agendamento.png)
@@ -31,7 +31,7 @@ Aplicação web desenvolvida com **Python + Streamlit** para gerenciar clientes 
 
 ## 🎥 Demonstração
 
-![Demo](demo.gif)
+![demo](demo.gif)
 
 ---
 
