@@ -31,7 +31,7 @@ Aplicação web desenvolvida com **Python + Streamlit** para gerenciar clientes 
 
 ## 🎥 Demonstração
 
-![demo.gif](demo.gif)
+![demo.gif](images/demo.gif)
 
 ---
 
