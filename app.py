@@ -33,7 +33,7 @@ if opcao == "Cadastrar Cliente":
                 st.error("Preencha todos os campos !")
             else:
                 msg = funcoes.cadastrar_cliente(nome, telefone, placa, modelo)
-                st.toast("Cliente cadastrado com sucesso ✅")
+                st.success("Cliente cadastrado com sucesso ✅")
 
 
 elif opcao == "Listar Clientes": 
@@ -57,6 +57,7 @@ elif opcao == "Agendar Serviço":
     )
         data = st.date_input("Data", format="DD/MM/YYYY")
         submitted = st.form_submit_button("Agendar")
+        msg_box = st.empty()
 
         if submitted:
             if not cliente:
@@ -66,7 +67,8 @@ elif opcao == "Agendar Serviço":
 
             else: 
                 msg = funcoes.agendar_servico(cliente, servico, data)
-                st.success(msg)
+                msg_box.success(msg)
+
 
 
 elif opcao == "Ver Agendamentos":

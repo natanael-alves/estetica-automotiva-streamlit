@@ -30,7 +30,7 @@ def agendar_servico(cliente_nome, servico, data):
 
     }
     agendamentos.append(agendamento)
-    return " Serviço agendado com sucesso "
+    return " Serviço agendado com sucesso ✅ "
 
 def listar_agendamentos():
     return agendamentos
