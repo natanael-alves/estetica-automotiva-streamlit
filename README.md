@@ -1,6 +1,7 @@
 # 🚘 Sistema de Estética Automotiva
 
-Aplicação web desenvolvida com **Python + Streamlit** para gerenciar clientes e agendamentos de serviços de estética automotiva.
+Aplicação web para gerenciamento de clientes e agendamentos de uma estética automotiva, permitindo cadastro, controle e visualização de serviços de forma simples e rápida.
+
 
 ## ✨ Funcionalidades
 
@@ -10,6 +11,13 @@ Aplicação web desenvolvida com **Python + Streamlit** para gerenciar clientes 
 ✅ Visualização de agendamentos  
 ✅ Validação de dados  
 ✅ Interface web com Streamlit  
+
+---
+
+## 🎥 Demonstração
+
+![Demonstração do sistema](images/demo.gif)
+
 
 ---
 
@@ -29,27 +37,44 @@ Aplicação web desenvolvida com **Python + Streamlit** para gerenciar clientes 
 
 ---
 
-## 🎥 Demonstração
-
-![demo.gif](images/demo.gif)
-
----
-
 ## 🚀 Como executar o projeto
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 
-🛠 Tecnologias
+```
+---
 
-Python
+## 📂 Estrutura
 
-Streamlit
+```text
+estetica-automotiva-streamlit/
+│
+├── app.py
+├── funcoes.py
+├── requirements.txt
+├── images/
+│   ├── cadastro.png
+│   ├── demo.gif
+└── README.md
+```
 
-Git/GitHub
+---
 
+## 🛠 Tecnologias
 
-👨‍💻 Autor
+- ✅ Python
+- ✅ Streamlit
+- ✅ Git
+- ✅ GitHub
 
-Natanael Alves
+---
+
+## 👨‍💻 Autor
+
+**Natanael Alves**  
+Desenvolvedor Python Back-end
+
+🔗 [LinkedIn](http://www.linkedin.com/in/natanaelalves)    
+💻 [GitHub](https://github.com/natanael-alves)
